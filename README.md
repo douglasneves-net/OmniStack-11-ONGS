@@ -17,6 +17,15 @@ Sistema para ONGS
 - npx knex (list commands knex)
 
 
+## Iniciar -  ReactJS
+- Instale as dependencias: npm install
+- Execute a aplicação: npm start
+
 ## Comandos Executados - ReactJS
 - npx create-react-app frontend  (start project)
 - npm start  (start application)
+- cleaning project src(remove -> README.md, App.css, App.test.js, index.css, logo.svg, serviceWorker.js, setupTests.js)
+- cleaning project public(remove -> robots.txt, manigest.json, logo512.png, logo192.png)
+- npm install react-icons (Icons)
+- npm install react-router-dom (Routes)
+- npm install axios (Connect backend - Client HTTP)
