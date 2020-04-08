@@ -41,20 +41,20 @@ Já no aplicativo, desenvolvido em React Native, foi feito apenas a área dos <i
 
 #### Comandos Back-End (NodeJS)
 ```bash
-$ npm init -y (start project)
-$ npm install express (framework)
+$ yarn init -y (start project)
+$ yarn add express (framework)
 $ node index.js (start application)
-$ npm install nodemon -D (Reload application)
-$ npm install knex (Query Builder)
-$ npm install sqlite3 (Database)
+$ yarn add nodemon -D (Reload application)
+$ yarn add knex (Query Builder)
+$ yarn add sqlite3 (Database)
 $ npx knex migrate:make create_ongs (create migrations)
 $ npx knex migrate:latest (execute migrations)
 $ npx knex (list commands knex)
-$ npm install celebrate (validation - integrates validation with express)
-$ npm install jest (TDD)
+$ yarn add celebrate (validation - integrates validation with express)
+$ yarn add jest (TDD)
 $ npx jest --init (Execute init jest)
-$ npm install cross-env (Run scripts that set and use environment variables across platforms)
-$ npm install supertest (Test Request)
+$ yarn add cross-env (Run scripts that set and use environment variables across platforms)
+$ yarn add supertest (Test Request)
 $ npm test (Execute Test)
 ```
 
@@ -68,12 +68,12 @@ $ npm test (Execute Test)
 ### Comandos Front-End (ReactJS)
 ```bash
 $ npx create-react-app frontend  (start project)
-$ npm start  (start application)
+$ yarn start  (start application)
 $ cleaning project src(README.md, App.css, App.test.js, index.css, logo.svg, serviceWorker.js, setupTests.js)
 $ cleaning project public(robots.txt, manigest.json, logo512.png, logo192.png)
-$ npm install react-icons (Icons)
-$ npm install react-router-dom (Routes)
-$ npm install axios (Connect backend - Client HTTP)
+$ yarn add react-icons (Icons)
+$ yarn add react-router-dom (Routes)
+$ yarn add axios (Connect backend - Client HTTP)
 ```
 
 ## Mobile (React Native)
@@ -86,7 +86,7 @@ $ npm install axios (Connect backend - Client HTTP)
 
 ### Comandos Front-End (React Native)
 ```bash
-$ npm install -g expo-cli  (install expo global)
+$ yarn add -g expo-cli  (install expo global)
 $ expo init mobile (create project)
 $ Install expo in android/IOS
 $ yarn start (start application)
@@ -99,13 +99,14 @@ $ yarn add intl (FormatNumber)
 ## :information_source: Como usar ?
 
 ### Back-End NodeJS
-- Instale as dependencias: npm install
-- Execute a aplicação: npm start
+- Instale as dependencias: npm install / yarn
+- Execute a aplicação: npm start / yarn start
+- Teste: npm test
 
 ### Front-End ReactJS
-- Instale as dependencias: npm install
-- Execute a aplicação: npm start
+- Instale as dependencias: npm install / yarn
+- Execute a aplicação: npm start / yarn start
 
 ### Mobile React Native
-- Instale as dependencias: npm install
-- Execute a aplicação: npm start
+- Instale as dependencias: npm install / yarn
+- Execute a aplicação: npm start / yarn start
